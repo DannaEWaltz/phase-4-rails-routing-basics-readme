@@ -2,7 +2,7 @@ repo_name: DannaEWaltz/phase-4-rails-routing-basics-readme
 report_id: 5d9b7bdc1d5e4ea3b083554c266532bd
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-02T05:55:21+00:00'
+timestamp: '2024-02-29T19:50:48+00:00'
 requested_by: jlboba
 provider: github
 branch: main
@@ -151,6 +151,13 @@ tools:
   detection_source: Gemfile
   last_updated_by: ihollander
   last_updated_on: 2021-04-30 17:28:51.000000000 Z
+  vulnerabilities:
+  - name: Rack CORS Middleware has Insecure File Permissions
+    cve_id: CVE-2024-27456
+    cve_url: https://github.com/advisories/GHSA-785g-282q-pwvx
+    detected_date: Feb 27
+    severity: moderate
+    first_patched: 
 - name: rspec-json_expectations
   description: Set of matchers and helpers to allow you test your APIs responses like
     a pro
